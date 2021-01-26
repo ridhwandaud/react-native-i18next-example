@@ -1,6 +1,9 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
+import en from './locale/en.json'
+import ms from './locale/ms.json'
+
 const languageDetector = {
     type: 'languageDetector',
     async: true,
@@ -17,22 +20,10 @@ i18n
         debug: true,
         resources: {
         en: {
-            translation: {
-                hello: 'Hello world',
-                malay: 'Change to malay',
-                english: 'Change to english',
-                go: 'Go to settings',
-                settings: 'Settings',
-            },
+            translation: en
         },
         ms: {
-            translation: {
-                hello: 'Hai Dunia',
-                malay: 'Tukar ke bahasa melayu',
-                english: 'Tukar ke english',
-                go: 'Pergi ke tetapan',
-                settings: 'Tetapan'
-            },
+            translation: ms
         },
     },
 });

@@ -5,7 +5,6 @@ import { withTranslation } from 'react-i18next';
 // class based example
 class HomeScreen extends Component {
     render() {
-        console.log('props', this.props);
         const { t, navigation } = this.props;
         return (
             <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center'}}>
