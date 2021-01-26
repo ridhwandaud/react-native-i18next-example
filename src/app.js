@@ -6,9 +6,7 @@ import i18n from './i18n';
 import Router from './screens';
 
 const App = () => (
-	<I18nextProvider i18n={i18n}>
-        <Router />
-    </I18nextProvider>
+    <Router />
 );
 
 
