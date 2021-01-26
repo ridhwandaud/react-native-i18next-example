@@ -11,8 +11,12 @@ function SettingScreen({ navigation }) {
                 {t('settings')}
             </Text>
 
+            <TouchableOpacity onPress={() => i18n.changeLanguage('ms')}>
+                <Text>{t('malay')}</Text>
+            </TouchableOpacity>
+
             <TouchableOpacity onPress={() => i18n.changeLanguage('en')}>
-                <Text>{t('change')}</Text>
+                <Text>{t('english')}</Text>
             </TouchableOpacity>
         </View>
     )

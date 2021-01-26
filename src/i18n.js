@@ -19,7 +19,8 @@ i18n
         en: {
             translation: {
                 hello: 'Hello world',
-                change: 'Change language',
+                malay: 'Change to malay',
+                english: 'Change to english',
                 go: 'Go to settings',
                 settings: 'Settings',
             },
@@ -27,7 +28,8 @@ i18n
         ms: {
             translation: {
                 hello: 'Hai Dunia',
-                change: 'Tukar bahasa',
+                malay: 'Tukar ke bahasa melayu',
+                english: 'Tukar ke english',
                 go: 'Pergi ke tetapan',
                 settings: 'Tetapan'
             },
